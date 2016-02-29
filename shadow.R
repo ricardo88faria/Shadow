@@ -176,7 +176,7 @@ asp <- nrows/ncols
 
 if (img_output_ex == "y" ) {
       
-      st_jd <- c((julian_day + 0.36 + 0), (julian_day + 0.33 + 91), (julian_day + 0.29 + 182), (julian_day + 0.33 + 274))
+      st_jd <- c((julian_day + 0.5 + 0), (julian_day + 0.5 + 91), (julian_day + 0.5 + 182), (julian_day + 0.5 + 274))
       st_name <- c("winter", "spring", "summer", "autumn")
       
       for (i in 1:length(st_name)) {
