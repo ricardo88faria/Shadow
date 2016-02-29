@@ -1,10 +1,10 @@
-# WRF output for hydrology analysis
-This code is capable of making calcs of the shadows any time of the year and hour from any input ascii and netcdf (.nc) file.
+# Shadow impact analysis
+This code is capable of making calcs of the shadows any time of the year and hour from any topographic data input ascii and netcdf (.nc) file.
 It outupts netcdf (.nc) file with year median shadows representated in one day, shadows in the middle of the day in one year, and outputs image (.png) files from all stations of the year at midday.
 
 **To implement:**
 
-* Compare data obtained from Stations and WRF simulation
+* 
 
 ## Results:
 **(example of the Madeira Island shadows study)**
