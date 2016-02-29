@@ -1,0 +1,25 @@
+####################################################################################
+#Configure file with all necessary variables and configurations for script run well#
+####################################################################################
+
+#Fill with lat e lon in degrees of the center of the study area, and timezone.
+img_output_ex = "n"                 #do you want image examples of shadows in
+                                    #winter, spring, summer, autumn & anual (y ou n)
+                                    
+day_sample = 48                     #24 amostra num dia da um intervalo de 24/24 = 1hora
+day_i = 1                           #inicial day of the year for the study
+day_f = 31                          #final day of the year for the study (this interval is equal of the                                        january month)
+
+lat_degrees = 32.65010              #center lat in degrees
+lon_degrees = -16.94300             #center lon in degrees
+
+tmz = 0                             #study area timezone
+
+nc_var_topo = "HGT"                 #necdf topography variable name
+nc_var_lat = "XLAT"                 #necdf latitude variable name
+nc_var_lon = "XLONG"                #necdf longitude variable name
+
+local = "MAD"                       #local name to save file & title
+
+ext_file = "asc"                    #topohgraphy extention file (nc or asc)
+latlon = "degree"                   #topohgraphy projection (degree or other)
