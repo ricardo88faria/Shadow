@@ -4,26 +4,26 @@ It outupts netcdf (.nc) file with year median shadows representated in one day, 
 
 **To implement:**
 
-* 
+*
 
 ## Results:
 **(example of the Madeira Island shadows study)**
 
 * Shadows in Winter at midday and sunrise time
-![alt text](obs/shadow_winter_MAD.png)
-![alt text](obs/shadow_winter_sr_MAD.png)
+![alt text](github/shadow_winter_MAD.png)
+![alt text](github/shadow_winter_sr_MAD.png)
 
 * Shadows in Autumn at midday and sunrise time
-![alt text](obs/shadow_autumn_MAD.png)
-![alt text](obs/shadow_autumn_sr_MAD.png)
+![alt text](github/shadow_autumn_MAD.png)
+![alt text](github/shadow_autumn_sr_MAD.png)
 
 * Shadows in Spring at midday and sunrise time
-![alt text](obs/shadow_spring_MAD.png)
-![alt text](obs/shadow_spring_sr_MAD.png)
+![alt text](github/shadow_spring_MAD.png)
+![alt text](github/shadow_spring_sr_MAD.png)
 
 * Shadows in Summer at midday and sunrise time
-![alt text](obs/shadow_summer_MAD.png)
-![alt text](obs/shadow_summer_sr_MAD.png)
+![alt text](github/shadow_summer_MAD.png)
+![alt text](github/shadow_summer_sr_MAD.png)
 
 
 ## Usage:
