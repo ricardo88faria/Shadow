@@ -6,6 +6,7 @@ library(ncdf4)
 library(geosphere)
 library(tools)
 
+source("config.txt")
 
 open_topo <- function() {
       
@@ -41,6 +42,14 @@ open_topo <- function() {
             
             cellsize <- alongTrackDistance(p1, p2, p3)[1,]/2
             
+            if (topo == -99.9) {
+                  topo[topo == -99.9] <- 0
+            } else if (topo == -999.000) {
+                  topo[topo == -999.000] <- 0
+            } else if (topo == NA) {
+                  topo[topo == NA] <- 0
+            }
+            
             file_name <- file_nc
             header <- NULL
             
@@ -72,6 +81,16 @@ open_topo <- function() {
                   
                   cellsize = header[5, 2]
                   
+            }
+            
+            #vals_exc <- c(NA, -99.9, -999.000, -999)
+            
+            if (topo == -99.9) {
+                  topo[topo == -99.9] <- 0
+            } else if (topo == -999.000) {
+                  topo[topo == -999.000] <- 0
+            } else if (topo == NA) {
+                  topo[topo == NA] <- 0
             }
             
             file_name <- file_asc
