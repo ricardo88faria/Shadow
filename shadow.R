@@ -4,7 +4,6 @@
 library(insol)
 library(ncdf4)
 
-
 #limpeza ambiente e objetos:
 rm(list=ls())
 cat("\014")
